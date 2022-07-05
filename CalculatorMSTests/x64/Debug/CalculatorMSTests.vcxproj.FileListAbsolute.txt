@@ -1,0 +1,1 @@
+C:\Users\Shadow\Documents\GitHub\Tutorial-OOP-Calculator\CalculatorMSTests\x64\Debug\CalculatorMSTests.vcxproj.CopyComplete
