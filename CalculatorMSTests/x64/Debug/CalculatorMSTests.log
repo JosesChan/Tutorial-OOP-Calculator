@@ -1,4 +1,4 @@
-﻿  pch.cpp
-  CalculatorMSTests.cpp
+﻿  CalculatorMSTests.cpp
      Creating library C:\Users\Shadow\Documents\GitHub\Tutorial-OOP-Calculator\CalculatorExample\x64\Debug\CalculatorMSTests.lib and object C:\Users\Shadow\Documents\GitHub\Tutorial-OOP-Calculator\CalculatorExample\x64\Debug\CalculatorMSTests.exp
-  CalculatorMSTests.vcxproj -> C:\Users\Shadow\Documents\GitHub\Tutorial-OOP-Calculator\CalculatorExample\x64\Debug\CalculatorMSTests.dll
+CalculatorMSTests.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl Multiplication::applyOperation(void)" (?applyOperation@Multiplication@@MEAAXXZ)
+C:\Users\Shadow\Documents\GitHub\Tutorial-OOP-Calculator\CalculatorExample\x64\Debug\CalculatorMSTests.dll : fatal error LNK1120: 1 unresolved externals

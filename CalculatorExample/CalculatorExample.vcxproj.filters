@@ -24,12 +24,18 @@
     <ClCompile Include="Addition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Multiplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="operationFunction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Addition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiplication.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

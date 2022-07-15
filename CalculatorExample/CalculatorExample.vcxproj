@@ -141,10 +141,12 @@
   <ItemGroup>
     <ClCompile Include="Addition.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Multiplication.cpp" />
     <ClCompile Include="operationFunction.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Addition.h" />
+    <ClInclude Include="Multiplication.h" />
     <ClInclude Include="operationFunction.h" />
   </ItemGroup>
   <ItemGroup>

@@ -8,7 +8,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace CalculatorMSTests
 {
-	TEST_CLASS(CalculatorMSTests) {
+	TEST_CLASS(AdditionMSTests) {
 		public:
 
 			TEST_METHOD(SumTest)
@@ -65,4 +65,6 @@ namespace CalculatorMSTests
 				Assert::AreEqual(expected, actual);
 			}
 	};
+
+
 }
