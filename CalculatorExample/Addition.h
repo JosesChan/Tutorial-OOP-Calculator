@@ -6,8 +6,8 @@
 
 // Addition Class
 class Addition : public Operations {
-protected:
-	void applyOperation();
+private:
+	void applyOperation() override;
 
 };
 

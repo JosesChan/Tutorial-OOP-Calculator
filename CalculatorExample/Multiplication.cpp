@@ -2,11 +2,10 @@
 
 #include <string>
 #include <iostream>
+#include <numeric>
 
 void Multiplication::applyOperation()
 {
-	sum = inputValues[0];
-	for (int i = 1; i < inputValues.size(); i++) {
-		sum = sum*inputValues[i];
-	}
+	// C++17, requires language change from C++ 14 in project properties
+	sum = std::reduce(std::cbegin(inputValues), std::cend(inputValues), 1, std::multiplies<int>());
 }

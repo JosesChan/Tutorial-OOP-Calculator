@@ -6,9 +6,9 @@
 
 // Multiplication Class
 class Multiplication : public Operations {
-protected:
-	void applyOperation();
+private:
+	void applyOperation() override;
 
 };
 
-#endif // ADDITION_H
+#endif // MULTIPLICATION_H

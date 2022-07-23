@@ -13,10 +13,10 @@ public:
 	// method to return product after operations
 	double getResult();
 
-protected:
 	// virtual method to be implement in its classes
 	virtual void applyOperation() = 0;
 
+protected:
 	// class fields
 	double sum = 0;
 	std::vector <double> inputValues = {};

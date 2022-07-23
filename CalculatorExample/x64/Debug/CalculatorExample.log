@@ -1,4 +1,19 @@
-﻿  Multiplication.cpp
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : The process cannot access the file 'c:\users\shadow\documents\github\tutorial-oop-calculator\calculatorexample\x64\debug\gtest_main.pdb' because it is being used by another process.
+  Addition.cpp
   main.cpp
+  Multiplication.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\numeric(86,44): warning C4244: 'argument': conversion from 'const double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Shadow\Documents\GitHub\Tutorial-OOP-Calculator\CalculatorExample\Multiplication.cpp(10): message : see reference to function template instantiation '_Ty std::reduce<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,int,std::multiplies<_Ty>>(const _InIt,const _InIt,_Ty,_BinOp)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _BinOp=std::multiplies<int>
+          ]
+  operationFunction.cpp
   Generating Code...
   CalculatorExample.vcxproj -> C:\Users\Shadow\Documents\GitHub\Tutorial-OOP-Calculator\CalculatorExample\x64\Debug\CalculatorExample.exe
